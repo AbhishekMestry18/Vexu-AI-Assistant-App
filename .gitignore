@@ -44,3 +44,27 @@ app.*.map.json
 
 # .gitignore
 lib/secrets.dartgit commit -m "first commit"
+
+# Flutter/Dart
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+flutter_*.png
+
+# Platform folders
+android/
+ios/
+linux/
+macos/
+web/
+windows/
+
+# Native build artifacts
+**/*.so
+**/*.dll
+**/*.dylib
